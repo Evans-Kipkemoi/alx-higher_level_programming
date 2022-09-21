@@ -1,16 +1,10 @@
 #!/usr/bin/python3
 """
-This is the "lazy_matrix_mul" module.
-The lazy_matrix_mul matrix multiplication using numpy.dot
+Defines lazy_matrix function
 """
-
-
-import numpy as np
+import numpy
 
 
 def lazy_matrix_mul(m_a, m_b):
-    """
-       Multiplies two Matrix
-       Return: matrix
-    """
-    return matrix
+    """ calculates the matrix multiplication of two matrices"""
+    return numpy.matmul(m_a, m_b)
